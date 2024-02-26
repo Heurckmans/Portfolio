@@ -1,0 +1,47 @@
+.blog{
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: $size-screen-xl;
+    width: 100%;
+    margin: 0 auto
+}
+
+.blog-container{
+    background-color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.blog-title{
+    font-family: "Roboto";
+    font-size: 80px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 80px;
+}
+
+.blog-items{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+}
+
+.blog-item{
+    font-family: "Inter";
+    font-size: 40px;
+    color: #000;
+}
+
+a:hover .blog-item-arrow{
+    position: relative;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    0% {left: 0;}
+    50% {left: 30px;}
+    100% {left: 0;}
+}

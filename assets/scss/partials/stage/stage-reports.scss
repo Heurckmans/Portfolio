@@ -1,0 +1,72 @@
+.stage-reports{
+    padding: 5rem 1rem;
+    background-color: #f1f1f1;
+    min-height: 100vh;
+}
+
+.stage-reports-container{
+    max-width: $max-screen-width-s; 
+    margin: auto;
+}
+
+.stage-reports-title{
+    @include font-size($title-font-sizes);
+    font-family: $font-primary;
+    font-weight: 700;
+    color: $color-black;
+    margin-bottom: 5rem;
+}
+
+.stage-reports-items{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.stage-report-card{
+    display: block;
+    background-color: $color-white;
+    padding: 1rem;
+
+    &-title{
+        font-family: $font-primary;
+        @include font-size($title2-font-sizes);
+        font-weight: normal;
+        color: $color-black;
+    }
+
+    &-date{
+        font-family: $font-secondary;
+        @include font-size($p-font-sizes);
+        font-weight: 300;
+        color: #9c9c9c;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header-nav-toggler{
+        display: none;
+    }
+    .header-nav-menu{
+        position: relative;
+        flex-direction: row;
+        justify-content: end;
+        height: auto;
+        right: 0vw;
+        padding: 0rem;
+        transition: 0s;
+        gap: 2rem ;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .stage-reports-container{
+        max-width: $max-screen-width-m; 
+    }
+}
+@media only screen and (min-width: 1200px) {
+
+}
+@media only screen and (min-width: 2000px) {
+
+}

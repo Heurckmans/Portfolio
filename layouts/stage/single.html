@@ -1,0 +1,37 @@
+{{ define "main" }}
+    
+    <div class="stage-report">
+        <div class="stage-report-container">
+        
+            <h1 class="stage-report-title">{{ .Title }}</h1>
+            <div class="stage-report-date">{{ .Date.Format "2 Jan 2006" }}</div>
+
+            <div class="content">
+                {{ .Content }}
+            </div>
+
+            <!--
+            <div class="stage-report-items">
+                <h2 class="stage-report-items-title">Continue reading</h2>
+                <div class="stage-report-items-wrapper">
+                    <a class="stage-report-card" href="">
+                        <img class="stage-report-card-image" src="https://picsum.photos/1920/1080" alt="">
+                        <h3 class="stage-report-card-title">Blog post title</h3>
+                        <p class="stage-report-card-date">05 Sep 2023</p>
+                    </a>
+
+                    <a class="stage-report-card" href="">
+                        <img class="stage-report-card-image" src="https://picsum.photos/1920/1080" alt="">
+                        <h3 class="stage-report-card-title">Blog post title</h3>
+                        <p class="stage-report-card-date">05 Sep 2023</p>
+                    </a>
+
+                </div>
+            </div>
+            -->
+
+        </div>
+    </div>
+
+{{ end }}
+

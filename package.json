@@ -1,0 +1,15 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch assets/scss/main.scss assets/css/bundle.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rclone": "^1.4.0"
+  }
+}

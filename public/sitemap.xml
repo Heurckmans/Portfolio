@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2023-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projecten/</loc>
+    <lastmod>2023-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projecten/projectphp/</loc>
+    <lastmod>2022-05-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projecten/unitycursus/</loc>
+    <lastmod>2022-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projecten/requirementanalysis/</loc>
+    <lastmod>2022-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/stage/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projecten/topdownshooter/</loc>
+  </url>
+</urlset>

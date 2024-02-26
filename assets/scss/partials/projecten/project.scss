@@ -1,0 +1,42 @@
+.project{
+    padding: 7rem 0;
+    background-color: #f1f1f1;
+}
+
+.project-container{
+    max-width: $max-screen-width-s;
+    margin: auto;
+    padding: 1rem;
+}
+
+.project-title{
+    font-family: $font-primary;
+    @include font-size($title-font-sizes);
+    font-weight: 700;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.project-date{
+    font-family: $font-secondary;
+    font-weight: normal;
+    @include font-size($title2-font-sizes);
+    color: #9c9c9c;
+    margin-bottom: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+    .project-container{
+        max-width: $max-screen-width-m;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+@media only screen and (min-width: 1200px) {
+
+}
+@media only screen and (min-width: 2000px) {
+
+}

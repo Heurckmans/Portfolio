@@ -1,0 +1,83 @@
+.projecten{
+    padding: 5rem 1rem;
+    background-color: #f1f1f1;
+    min-height: 62.2vh;
+}
+
+.projecten-container{
+    max-width: $max-screen-width-s; 
+    margin: auto;
+}
+
+.projecten-title{
+    @include font-size($title-font-sizes);
+    font-family: $font-primary;
+    font-weight: 700;
+    color: $color-black;
+    margin-bottom: 5rem;
+}
+
+.projecten-items{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.project-card{
+    background-color: $color-white;
+    padding: 1rem;
+    &-image{
+        width: 100%;
+        height: auto;
+        max-height: 150px;
+        object-fit: cover;
+    }
+
+    &-title{
+        font-family: $font-primary;
+        @include font-size($title2-font-sizes);
+        font-weight: normal;
+        color: $color-black;
+    }
+
+    &-date{
+        font-family: $font-secondary;
+        @include font-size($p-font-sizes);
+        font-weight: 300;
+        color: #9c9c9c;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .projecten-container{
+        max-width: $max-screen-width-m; 
+        margin: auto;
+    }
+
+    .projecten-items {
+        display: grid;
+        grid-template-columns: repeat(2,  1fr); 
+        gap:  2rem;  
+    
+        .project-card:nth-of-type(1){
+            grid-column: span  2;
+        }
+    }
+    
+    .project-card{
+        &-image{
+            max-height: 250px;
+        }
+    }
+    
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+@media only screen and (min-width: 1200px) {
+
+}
+@media only screen and (min-width: 2000px) {
+
+}

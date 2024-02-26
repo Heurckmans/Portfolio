@@ -1,0 +1,81 @@
+/*Sizes*/
+$size-header-hight: 120px;
+$size-screen-xl: 1400px;
+$max-screen-width-s: 500px;
+$max-screen-width-m: 1000px;
+$max-screen-width-l: 1400px;
+$max-screen-width-xl: 1920px;
+
+$color-black: #000;
+$color-white: #fff;
+
+$color-primary: #e82;
+$color-secondary: #f3d;
+
+$font-primary:'Roboto', sans-serif;
+$font-secondary: 'Inter', sans-serif;
+
+
+
+$breakpoints: (
+  small : 480px,
+  medium: 700px, // Previously 640px
+  large : 1024px
+);
+
+$p-font-sizes: (
+  null  : 16px,
+  small : 20px,
+  medium: 22px,
+  large : 24px
+);
+
+$h1-font-sizes: (
+  null  : 32px,
+  small : 32px,
+  medium: 36px,
+  large : 40px
+);
+$h2-font-sizes: (
+  null  : 24px,
+  small : 24px,
+  medium: 28px,
+  large : 32px
+);
+$title-font-sizes: (
+  null  : 40px,
+  small : 48px,
+  medium: 56px,
+  large : 64px
+);
+$title2-font-sizes: (
+  null  : 24px,
+  small : 24px,
+  medium: 32px,
+  large : 40px
+);
+
+$pbig-font-sizes: (
+  null  : 16px,
+  small : 24px,
+  medium: 32px,
+  large : 40px
+);
+
+@mixin font-size($fs-map, $fs-breakpoints: $breakpoints) {
+    @each $fs-breakpoint, $fs-font-size in $fs-map {
+      @if $fs-breakpoint == null {
+        font-size: $fs-font-size;
+      }
+      @else {
+        // If $fs-font-size is a key that exists in
+        // $fs-breakpoints, use the value
+        @if map-has-key($fs-breakpoints, $fs-breakpoint) {
+          $fs-breakpoint: map-get($fs-breakpoints, $fs-breakpoint);
+        }
+        @media screen and (min-width: $fs-breakpoint) {
+          font-size: $fs-font-size;
+        }
+      }
+    }
+}

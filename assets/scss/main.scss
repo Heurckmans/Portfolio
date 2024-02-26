@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;900&family=Roboto&display=swap');
+/*
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+@import "variables.scss";
+@import "globals.scss";
+@import "partials/home/welcome.scss";
+@import "partials/home/about.scss";
+@import "partials/home/events.scss";
+@import "partials/home/blog.scss";
+@import "partials/stage/stage-report.scss";
+@import "partials/stage/stage-reports.scss";
+@import "partials/projecten/project.scss";
+@import "partials/projecten/projecten.scss";
+
+/* Common */
+@import "partials/common/header.scss";
+@import "partials/common/footer.scss";
+@import "partials/common/content.scss";
+
+/* End Common*/
+
+
+/* Home */
+/* End Home*/

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruben Heurckmans on My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Ruben Heurckmans on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 May 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project PHP</title>
+      <link>http://localhost:1313/projecten/projectphp/</link>
+      <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projecten/projectphp/</guid>
+      <description>Dit project was een opdracht voor het vak project PHP. Het project was een groepswerk in groepen van 6 (dezelfde groep als het project van Requirements Analysis).&#xA;De consultancy app is een project dat we aan het maken zijn voor het van project PHP. In dit project gebruiken we php samen met laravel om een volledig werkende webapplicatie te maken voor een consultancy bedrijf. Dit project is een groepswerk in groepjes van zes studenten.</description>
+    </item>
+    <item>
+      <title>Unity Cursus</title>
+      <link>http://localhost:1313/projecten/unitycursus/</link>
+      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projecten/unitycursus/</guid>
+      <description>Mijn Unity cursus is ontstaan door het vak professional skills. Voor dit vak moesten we namelijk in groepjes een trainingssessie geven. Wij hadden hierbij gekozen om naar onze oude school (Sint-Jan Berchmanscollege) te gaan en te vragen of wij een lesje Unity mochten geven. Onze oud-leerkracht van programmeren stond hier helemaal voor open. Aangezien ik de enige van onze groep was die in het verleden al echt met Unity gewerkt had, had ik het op mijzelf genomen dat ik een cursus ging maken.</description>
+    </item>
+    <item>
+      <title>Requirement Analysis</title>
+      <link>http://localhost:1313/projecten/requirementanalysis/</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projecten/requirementanalysis/</guid>
+      <description>Voor het vak Requirement analysis kregen we een project waar we een week aan mochten werken. Hierbij werden we in groepjes van zes studenten opgedeeld. We kregen als opdracht de documenten van andere groepen aan te passen, te verbeteren en samen te voegen tot we het beste van alles hadden. Deze documenten bevatte elk een use case diagram en verschillende prototypes van schermen die de applicatie moesten voorstellen.&#xA;Als we klaar waren met het bewerken van de documenten moesten we beginnen met het maken van een ERD.</description>
+    </item>
+    <item>
+      <title>Raspberry Pi Nas</title>
+      <link>http://localhost:1313/projecten/raspberrypinas/</link>
+      <pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projecten/raspberrypinas/</guid>
+      <description>Aangezien we voor het van IoT een Raspberry Pi moesten kopen en aangezien ik deze niet meer gebruikte na het slagen van het vak dacht ik er iets nuttigs mee te doen. Hierbij kwam ik op een tutorial hoe je van een Raspberry Pi heel makkelijk een Nas kan maken. Na het bekijken van de tutorial ben ik direct aan de slag gegaan.&#xA;Voor dit project moet je OpenMediaVault op je Raspberry Pi zetten en een redelijk grote harde schijf hebben want anders is het, het niet waard.</description>
+    </item>
+    <item>
+      <title>Top Down Shooter</title>
+      <link>http://localhost:1313/projecten/topdownshooter/</link>
+      <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projecten/topdownshooter/</guid>
+      <description>In het vijfde en zesde middelbaar studeerde ik informaticabeheer aan het Sint-Jan Berchmanscollege te Mol en hierbij kregen we de basis van C#. Aangezien ik het programmeren wel leuk en interessant vond ging ik terug kijken naar game development video&amp;rsquo;s. Door deze video&amp;rsquo;s te bekijken kreeg ik zin om hier zelf mee aan de slag te gaan en dat deed ik ook. Ik ben begonnen met mijn zelfstudie game development in Unity.</description>
+    </item>
+  </channel>
+</rss>

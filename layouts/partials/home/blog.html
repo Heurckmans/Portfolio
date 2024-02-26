@@ -1,0 +1,23 @@
+<section class="blog">
+    <div class="blog-container">
+        <h2 class="blog-title">Projecten</h2>
+        <div class="blog-items">
+
+            {{ range (site.GetPage "projecten").Pages }}
+            <a class="blog-item" href="{{ .RelPermalink }}">{{ .Title }} <span class="blog-item-arrow">-></span></a>
+            {{ end }}
+        </div>
+    </div>
+
+    <!--
+    <div class="blog-container">
+        <h2 class="blog-title">Guides</h2>
+        <div class="blog-items">
+            <p class="blog-item">Comming soon</p>
+            {{ range (site.GetPage "guide").Pages }}
+            <a class="blog-item" href="{{ .RelPermalink }}">{{ .Title }} <span class="blog-item-arrow">-></span></a>
+            {{ end }}
+        </div>
+    </div>
+    -->
+</section>

@@ -1,0 +1,37 @@
+{{ define "main" }}
+    
+    <div class="project">
+        <div class="project-container">
+        
+            <h1 class="project-title">{{ .Title }}</h1>
+            <div class="project-date">{{ .Date.Format "2 Jan 2006" }}</div>
+
+            <div class="content">
+                {{ .Content }}
+            </div>
+
+            <!--
+            <div class="project-items">
+                <h2 class="project-items-title">Continue reading</h2>
+                <div class="project-items-wrapper">
+                    <a class="project-card" href="">
+                        <img class="project-card-image" src="https://picsum.photos/1920/1080" alt="">
+                        <h3 class="project-card-title">Blog post title</h3>
+                        <p class="project-card-date">05 Sep 2023</p>
+                    </a>
+
+                    <a class="project-card" href="">
+                        <img class="project-card-image" src="https://picsum.photos/1920/1080" alt="">
+                        <h3 class="project-card-title">Blog post title</h3>
+                        <p class="project-card-date">05 Sep 2023</p>
+                    </a>
+
+                </div>
+            </div>
+            -->
+
+        </div>
+    </div>
+
+{{ end }}
+

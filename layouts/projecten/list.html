@@ -1,0 +1,23 @@
+{{ define "main" }}
+    
+    <div class="projecten">
+        <div class="projecten-container">
+        
+            <h1 class="projecten-title">Projecten</h1>
+            <div class="projecten-items">
+
+                {{ range.Pages.ByDate.Reverse  }}
+                <a class="project-card" href="{{ .RelPermalink }}">
+                    <img class="project-card-image" src="../images/{{ replace .Title " " "-" | lower }}.png" alt="">
+                    <h3 class="project-card-title"> {{ .Title }} </h3>
+                    <p class="project-card-date">{{ .Date.Format "02 Jan  2006" }}</p>
+                </a>
+                {{ end }}
+
+
+            
+            </div>
+        </div>
+    </div>
+
+{{ end }}

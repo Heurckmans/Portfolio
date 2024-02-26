@@ -1,0 +1,38 @@
+
+.content{
+    h1{
+        margin-top: 3rem;
+        font-family: $font-primary;
+        @include font-size($h1-font-sizes);
+        font-weight: 600;
+        color: black;
+        padding-top: 1rem;
+    }
+    h2{
+        font-family: $font-primary;
+        @include font-size($h2-font-sizes);
+        padding-top: 1rem;
+    }
+    p{
+        font-family: "Inter";
+        @include font-size($p-font-sizes);
+        font-weight: 300;
+        color: black;
+        line-height: 2rem;
+        padding-top: 1rem;
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+        max-height: 500px;
+        object-fit: contain;
+    }
+    
+    a{
+        padding: 1rem;
+        background-color: $color-black;
+        color: $color-white;
+    }
+
+}
