@@ -37,6 +37,7 @@ a:hover .project-list-item-arrow{
     animation-name: move;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 @keyframes move {
