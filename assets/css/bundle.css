@@ -301,7 +301,7 @@ a {
   object-fit: cover;
 }
 
-.blog {
+.project-list {
   display: grid;
   grid-template-columns: auto auto;
   max-width: 1400px;
@@ -309,33 +309,62 @@ a {
   margin: 0 auto;
 }
 
-.blog-container {
+.project-list-container {
   background-color: #fff;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding: 1rem 2rem;
 }
 
-.blog-title {
-  font-family: "Roboto";
-  font-size: 80px;
+.project-list-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
   font-weight: 700;
   color: #000;
-  margin-bottom: 80px;
+  margin-bottom: 3rem;
+}
+@media screen and (min-width: 480px) {
+  .project-list-title {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .project-list-title {
+    font-size: 56px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .project-list-title {
+    font-size: 64px;
+  }
 }
 
-.blog-items {
+.project-list-items {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 2rem;
 }
 
-.blog-item {
-  font-family: "Inter";
-  font-size: 40px;
+.project-list-item {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
   color: #000;
 }
+@media screen and (min-width: 480px) {
+  .project-list-item {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .project-list-item {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .project-list-item {
+    font-size: 40px;
+  }
+}
 
-a:hover .blog-item-arrow {
+a:hover .project-list-item-arrow {
   position: relative;
   animation-name: move;
   animation-duration: 2s;
@@ -351,6 +380,24 @@ a:hover .blog-item-arrow {
   }
   100% {
     left: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .project-list-container {
+    background-color: #fff;
+    padding: 3rem 2rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .project-list-container {
+    background-color: #fff;
+    padding: 3rem 1rem;
+  }
+  .project-list-title {
+    margin-bottom: 5rem;
+  }
+  .project-list-items {
+    gap: 3rem;
   }
 }
 .stage-report {
