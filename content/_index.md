@@ -1,5 +1,5 @@
 ---
-title: "Ruben Heurckmans"
+title: "Home"
 type: home
 ---
 Home content
