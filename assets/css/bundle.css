@@ -647,7 +647,7 @@ a:hover .project-list-item-arrow {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #000;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
 }
 @media screen and (min-width: 480px) {
   .projecten-title {
@@ -669,6 +669,79 @@ a:hover .project-list-item-arrow {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+.projecten-filter-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.projecten-filter-buttons p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  align-self: center;
+}
+@media screen and (min-width: 480px) {
+  .projecten-filter-buttons p {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .projecten-filter-buttons p {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .projecten-filter-buttons p {
+    font-size: 24px;
+  }
+}
+
+.filter-button {
+  background-color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+}
+@media screen and (min-width: 480px) {
+  .filter-button {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .filter-button {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .filter-button {
+    font-size: 24px;
+  }
+}
+
+.filter-button:hover {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  scale: 1.1;
+  font-size: 16px;
+}
+@media screen and (min-width: 480px) {
+  .filter-button:hover {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .filter-button:hover {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .filter-button:hover {
+    font-size: 24px;
+  }
 }
 
 .project-card {

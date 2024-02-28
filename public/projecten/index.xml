@@ -6,21 +6,35 @@
     <description>Recent content in Projecten on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/projecten/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Portfolio</title>
+      <link>http://localhost:1313/projecten/hugoportfolio/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projecten/hugoportfolio/</guid>
+      <description>Portfolio tekst</description>
+    </item>
     <item>
       <title>Project 4.0</title>
       <link>http://localhost:1313/projecten/project40/</link>
       <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projecten/project40/</guid>
-      <description></description>
+      <description>Project 4.0 was een groepswerk met zes studenten in totaal. Hierbij moesten wij voor VITO een applicatie maken waarbij het mogelijk was om Knolcyperus te detecteren aan de hand van dronebeelden en deze dan visueel weer te geven op een heatmap.&#xA;Bij dit project heb ik vooral geleerd hoe je DTO&amp;rsquo;s kan gebruiken om enkel de nodige data door te sturen via een API in de plaats van altijd alle data door te sturen.</description>
+    </item>
+    <item>
+      <title>Dodge Game</title>
+      <link>http://localhost:1313/projecten/dodgegame/</link>
+      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projecten/dodgegame/</guid>
+      <description>Na een lange tijd niet echt meer de tijd vrijgemaakt te hebben om me bezig te houden met game development begon het weer te kriebelen om een klein projectje te maken. Dit vooral om de basis nog eens op te frissen zodat ik het niet helemaal verleerde. Hierdoor had ik gekozen om een simpele &amp;ldquo;Dodge game&amp;rdquo; te maken. Door op A en D te drukken beweeg je je character (het rode blokje) en de spawn locaties van de obstakels worden random gekozen.</description>
     </item>
     <item>
       <title>Project PHP</title>
       <link>http://localhost:1313/projecten/projectphp/</link>
       <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projecten/projectphp/</guid>
-      <description>Dit project was een opdracht voor het vak project PHP. Het project was een groepswerk in groepen van 6 (dezelfde groep als het project van Requirements Analysis).&#xA;De consultancy app is een project dat we aan het maken zijn voor het van project PHP. In dit project gebruiken we php samen met laravel om een volledig werkende webapplicatie te maken voor een consultancy bedrijf. Dit project is een groepswerk in groepjes van zes studenten.</description>
+      <description>Dit project was een opdracht voor het vak project PHP. Het project was een groepswerk in groepen van zes (dezelfde groep als het project van Requirements Analysis).&#xA;De consultancy app is een project dat we moesten maken voor het vak project PHP. In dit project gebruikten we php samen met laravel om een volledig werkende webapplicatie te maken voor een consultancy bedrijf. Voor het project zaten we elke vrijdag een hele dag op de campus en de rest is van thuis uit gemaakt.</description>
     </item>
     <item>
       <title>Unity Cursus</title>
@@ -41,7 +55,7 @@
       <link>http://localhost:1313/projecten/raspberrypinas/</link>
       <pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projecten/raspberrypinas/</guid>
-      <description>Aangezien we voor het van IoT een Raspberry Pi moesten kopen en aangezien ik deze niet meer gebruikte na het slagen van het vak dacht ik er iets nuttigs mee te doen. Hierbij kwam ik op een tutorial hoe je van een Raspberry Pi heel makkelijk een Nas kan maken. Na het bekijken van de tutorial ben ik direct aan de slag gegaan.&#xA;Voor dit project moet je OpenMediaVault op je Raspberry Pi zetten en een redelijk grote harde schijf hebben want anders is het, het niet waard.</description>
+      <description>Aangezien we voor het van IoT een Raspberry Pi moesten kopen en aangezien ik deze niet meer gebruikte na het slagen van het vak dacht ik er iets nuttigs mee te doen. Hierbij kwam ik op een tutorial hoe je van een Raspberry Pi heel makkelijk een Nas kan maken. Na het bekijken van de tutorial ben ik direct aan de slag gegaan.&#xA;Voor dit project moet je OpenMediaVault op je Raspberry Pi zetten en een redelijk grote harde schijf hebben want anders is heb je te weinig opslag ruimte om het nuttig te gebruiken.</description>
     </item>
     <item>
       <title>Top Down Shooter</title>

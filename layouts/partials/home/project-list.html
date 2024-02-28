@@ -3,7 +3,7 @@
         <h2 class="project-list-title">projecten</h2>
         <div class="project-list-items">
 
-            {{ range (site.GetPage "projecten").Pages }}
+            {{ range first 5 (site.GetPage "projecten").Pages }}
             <a class="project-list-item" href="{{ .RelPermalink }}">{{ .Title }} <span class="project-list-item-arrow">-></span></a>
             {{ end }}
         </div>

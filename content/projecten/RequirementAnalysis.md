@@ -2,6 +2,8 @@
 title: Requirement Analysis
 type: projecten
 date: 2022-01-31
+tags: 
+    - School
 ---
 
 Voor het vak Requirement analysis kregen we een project waar we een week aan mochten werken. Hierbij werden we in groepjes van zes studenten opgedeeld. We kregen als opdracht de documenten van andere groepen aan te passen, te verbeteren en samen te voegen tot we het beste van alles hadden. Deze documenten bevatte elk een use case diagram en verschillende prototypes van schermen die de applicatie moesten voorstellen.

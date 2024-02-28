@@ -2,22 +2,57 @@
     
     <div class="projecten">
         <div class="projecten-container">
-        
             <h1 class="projecten-title">Projecten</h1>
+            <div class="projecten-filter-buttons">
+                <p>Filter op:</p>
+                {{ $tags := slice }}
+                {{ range .Site.AllPages }}
+                    {{ range .Params.tags }}
+                        {{ $tags = $tags | append . }}
+                    {{ end }}
+                {{ end }}
+                {{ $uniqueTags := $tags | uniq | sort }}
+                {{ range $uniqueTags }}
+                    <button class="filter-button" data-tag="{{ . }}">{{ . }}</button>
+                {{ end }}
+            </div>
             <div class="projecten-items">
-
-                {{ range.Pages.ByDate.Reverse  }}
-                <a class="project-card" href="{{ .RelPermalink }}">
+                {{ range .Pages.ByDate.Reverse }}
+                <a class="project-card" href="{{ .RelPermalink }}" data-tags="{{ .Params.tags }}">
                     <img class="project-card-image" src="../images/{{ replace .Title " " "-" | lower }}.png" alt="">
                     <h3 class="project-card-title"> {{ .Title }} </h3>
                     <p class="project-card-date">{{ .Date.Format "02 Jan  2006" }}</p>
                 </a>
                 {{ end }}
-
-
-            
             </div>
         </div>
     </div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Get all filter buttons
+    const filterButtons = document.querySelectorAll('.filter-button');
+
+    // Add click event listener to each button
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            // Get the selected tag
+            const selectedTag = this.getAttribute('data-tag');
+
+            // Get all content items
+            const contentItems = document.querySelectorAll('.project-card');
+
+            // Hide all content items
+            contentItems.forEach(item => item.style.display = 'none');
+
+            // Show only items with the selected tag
+            contentItems.forEach(item => {
+                if (item.getAttribute('data-tags').includes(selectedTag)) {
+                    item.style.display = 'block';
+                }
+            });
+        });
+    });
+});
+</script>
 
 {{ end }}

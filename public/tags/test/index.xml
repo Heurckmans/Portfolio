@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/test/</link>
+    <description>Recent content in Test on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project 4.0</title>
+      <link>http://localhost:1313/projecten/project40/</link>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projecten/project40/</guid>
+      <description>Project 4.0 was een groepswerk met zes studenten in totaal. Hierbij moesten wij voor VITO een applicatie maken waarbij het mogelijk was om Knolcyperus te detecteren aan de hand van dronebeelden en deze dan visueel weer te geven op een heatmap.</description>
+    </item>
+  </channel>
+</rss>

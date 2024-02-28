@@ -7,7 +7,7 @@
 
     
 
-    <link rel="stylesheet" type="text/css" href="/css/bundle.min.956beafff7f9005ea5dd7f3d5bba191268312a06b75a9b3a3e665fd3ce62c98a.css" integrity="sha256-lWvq//f5AF6l3X89W7oZEmgxKga3Wps6PmZf085iyYo=" />
+    <link rel="stylesheet" type="text/css" href="/css/bundle.min.5288bd1ecc4c8d06de717d2752e82901cbec52ec80740867d862d8d02ff0251d.css" integrity="sha256-Uoi9HsxMjQbecX0nUugpAcvsUuyAdAhn2GLY0C/wJR0=" />
     <script src="/js/nav.js"></script>
 </head>
 
@@ -36,53 +36,146 @@
     
     <div class="projecten">
         <div class="projecten-container">
-        
             <h1 class="projecten-title">Projecten</h1>
-            <div class="projecten-items">
-
+            <div class="projecten-filter-buttons">
+                <p>Filter op:</p>
                 
-                <a class="project-card" href="/projecten/project40/">
+                
+                    
+                
+                    
+                
+                    
+                        
+                    
+                
+                    
+                
+                    
+                        
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                        
+                    
+                
+                    
+                
+                    
+                
+                
+                
+                    <button class="filter-button" data-tag="Eigen">Eigen</button>
+                
+                    <button class="filter-button" data-tag="School">School</button>
+                
+            </div>
+            <div class="projecten-items">
+                
+                <a class="project-card" href="/projecten/hugoportfolio/" data-tags="[Eigen]">
+                    <img class="project-card-image" src="../images/hugo-portfolio.png" alt="">
+                    <h3 class="project-card-title"> Hugo Portfolio </h3>
+                    <p class="project-card-date">28 Feb  2024</p>
+                </a>
+                
+                <a class="project-card" href="/projecten/project40/" data-tags="[School]">
                     <img class="project-card-image" src="../images/project-4.0.png" alt="">
                     <h3 class="project-card-title"> Project 4.0 </h3>
                     <p class="project-card-date">21 Feb  2024</p>
                 </a>
                 
-                <a class="project-card" href="/projecten/projectphp/">
+                <a class="project-card" href="/projecten/dodgegame/" data-tags="[Eigen]">
+                    <img class="project-card-image" src="../images/dodge-game.png" alt="">
+                    <h3 class="project-card-title"> Dodge Game </h3>
+                    <p class="project-card-date">10 Mar  2023</p>
+                </a>
+                
+                <a class="project-card" href="/projecten/projectphp/" data-tags="[School]">
                     <img class="project-card-image" src="../images/project-php.png" alt="">
                     <h3 class="project-card-title"> Project PHP </h3>
                     <p class="project-card-date">23 May  2022</p>
                 </a>
                 
-                <a class="project-card" href="/projecten/unitycursus/">
+                <a class="project-card" href="/projecten/unitycursus/" data-tags="[Eigen School]">
                     <img class="project-card-image" src="../images/unity-cursus.png" alt="">
                     <h3 class="project-card-title"> Unity Cursus </h3>
                     <p class="project-card-date">06 Apr  2022</p>
                 </a>
                 
-                <a class="project-card" href="/projecten/requirementanalysis/">
+                <a class="project-card" href="/projecten/requirementanalysis/" data-tags="[School]">
                     <img class="project-card-image" src="../images/requirement-analysis.png" alt="">
                     <h3 class="project-card-title"> Requirement Analysis </h3>
                     <p class="project-card-date">31 Jan  2022</p>
                 </a>
                 
-                <a class="project-card" href="/projecten/raspberrypinas/">
+                <a class="project-card" href="/projecten/raspberrypinas/" data-tags="[Eigen]">
                     <img class="project-card-image" src="../images/raspberry-pi-nas.png" alt="">
                     <h3 class="project-card-title"> Raspberry Pi Nas </h3>
                     <p class="project-card-date">06 Sep  2021</p>
                 </a>
                 
-                <a class="project-card" href="/projecten/topdownshooter/">
+                <a class="project-card" href="/projecten/topdownshooter/" data-tags="[Eigen]">
                     <img class="project-card-image" src="../images/top-down-shooter.png" alt="">
                     <h3 class="project-card-title"> Top Down Shooter </h3>
                     <p class="project-card-date">05 Aug  2020</p>
                 </a>
                 
-
-
-            
             </div>
         </div>
     </div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    
+    const filterButtons = document.querySelectorAll('.filter-button');
+
+    
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            
+            const selectedTag = this.getAttribute('data-tag');
+
+            
+            const contentItems = document.querySelectorAll('.project-card');
+
+            
+            contentItems.forEach(item => item.style.display = 'none');
+
+            
+            contentItems.forEach(item => {
+                if (item.getAttribute('data-tags').includes(selectedTag)) {
+                    item.style.display = 'block';
+                }
+            });
+        });
+    });
+});
+</script>
 
 
 
