@@ -27,10 +27,12 @@
             </div>
         </div>
     </div>
-<script>
+
+    <script>
 document.addEventListener('DOMContentLoaded', function() {
     // Get all filter buttons
     const filterButtons = document.querySelectorAll('.filter-button');
+    let lastSelectedTag = null; // Variable to track the last selected tag
 
     // Add click event listener to each button
     filterButtons.forEach(button => {
@@ -41,18 +43,41 @@ document.addEventListener('DOMContentLoaded', function() {
             // Get all content items
             const contentItems = document.querySelectorAll('.project-card');
 
-            // Hide all content items
-            contentItems.forEach(item => item.style.display = 'none');
+            // Check if the selected tag is the same as the last selected tag
+            if (lastSelectedTag === selectedTag) {
+                // If the same tag is clicked again, reset the filter
+                contentItems.forEach(item => item.style.display = 'block');
+                lastSelectedTag = null; // Reset the last selected tag
+            } else {
+                // Hide all content items
+                contentItems.forEach(item => item.style.display = 'none');
 
-            // Show only items with the selected tag
-            contentItems.forEach(item => {
-                if (item.getAttribute('data-tags').includes(selectedTag)) {
-                    item.style.display = 'block';
-                }
-            });
+                // Show only items with the selected tag
+                contentItems.forEach(item => {
+                    if (item.getAttribute('data-tags').includes(selectedTag)) {
+                        item.style.display = 'block';
+                    }
+                });
+
+                // Update the last selected tag
+                lastSelectedTag = selectedTag;
+            }
         });
     });
 });
-</script>
+document.addEventListener('DOMContentLoaded', function() {
+    const filterButtons = document.querySelectorAll('.filter-button');
 
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            // Remove 'selected' class from all buttons
+            filterButtons.forEach(btn => btn.classList.remove('filter-button-selected'));
+            // Add 'selected' class to the clicked button
+            this.classList.add('filter-button-selected');
+            // Your existing code to filter items...
+        });
+    });
+});
+
+        </script>
 {{ end }}

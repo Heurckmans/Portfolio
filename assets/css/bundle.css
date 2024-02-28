@@ -721,8 +721,6 @@ a:hover .project-list-item-arrow {
 }
 
 .filter-button:hover {
-  background-color: #000;
-  color: #fff;
   border: none;
   padding: 0.5rem 1rem;
   scale: 1.1;
@@ -742,6 +740,11 @@ a:hover .project-list-item-arrow {
   .filter-button:hover {
     font-size: 24px;
   }
+}
+
+.filter-button-selected {
+  background-color: #000;
+  color: #fff;
 }
 
 .project-card {

@@ -7,7 +7,7 @@
 
     
 
-    <link rel="stylesheet" type="text/css" href="/css/bundle.min.5288bd1ecc4c8d06de717d2752e82901cbec52ec80740867d862d8d02ff0251d.css" integrity="sha256-Uoi9HsxMjQbecX0nUugpAcvsUuyAdAhn2GLY0C/wJR0=" />
+    <link rel="stylesheet" type="text/css" href="/css/bundle.min.7d6ec5c62216ac851fb5aeea25b0117158647007f47e253637b51426544cc573.css" integrity="sha256-fW7FxiIWrIUfta7qJbARcVhkcAf0fiU2N7UUJlRMxXM=" />
     <script src="/js/nav.js"></script>
 </head>
 
@@ -68,6 +68,16 @@
                     
                 
                     
+                
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                
+                    
                         
                     
                         
@@ -94,6 +104,8 @@
                     <button class="filter-button" data-tag="Eigen">Eigen</button>
                 
                     <button class="filter-button" data-tag="School">School</button>
+                
+                    <button class="filter-button" data-tag="test">test</button>
                 
             </div>
             <div class="projecten-items">
@@ -128,6 +140,12 @@
                     <p class="project-card-date">06 Apr  2022</p>
                 </a>
                 
+                <a class="project-card" href="/projecten/unitycursus-copy/" data-tags="[Eigen School test]">
+                    <img class="project-card-image" src="../images/unity-cursus.png" alt="">
+                    <h3 class="project-card-title"> Unity Cursus </h3>
+                    <p class="project-card-date">06 Apr  2022</p>
+                </a>
+                
                 <a class="project-card" href="/projecten/requirementanalysis/" data-tags="[School]">
                     <img class="project-card-image" src="../images/requirement-analysis.png" alt="">
                     <h3 class="project-card-title"> Requirement Analysis </h3>
@@ -149,10 +167,12 @@
             </div>
         </div>
     </div>
-<script>
+
+    <script>
 document.addEventListener('DOMContentLoaded', function() {
     
     const filterButtons = document.querySelectorAll('.filter-button');
+    let lastSelectedTag = null; 
 
     
     filterButtons.forEach(button => {
@@ -164,19 +184,42 @@ document.addEventListener('DOMContentLoaded', function() {
             const contentItems = document.querySelectorAll('.project-card');
 
             
-            contentItems.forEach(item => item.style.display = 'none');
+            if (lastSelectedTag === selectedTag) {
+                
+                contentItems.forEach(item => item.style.display = 'block');
+                lastSelectedTag = null; 
+            } else {
+                
+                contentItems.forEach(item => item.style.display = 'none');
 
-            
-            contentItems.forEach(item => {
-                if (item.getAttribute('data-tags').includes(selectedTag)) {
-                    item.style.display = 'block';
-                }
-            });
+                
+                contentItems.forEach(item => {
+                    if (item.getAttribute('data-tags').includes(selectedTag)) {
+                        item.style.display = 'block';
+                    }
+                });
+
+                
+                lastSelectedTag = selectedTag;
+            }
         });
     });
 });
-</script>
+document.addEventListener('DOMContentLoaded', function() {
+    const filterButtons = document.querySelectorAll('.filter-button');
 
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            
+            filterButtons.forEach(btn => btn.classList.remove('filter-button-selected'));
+            
+            this.classList.add('filter-button-selected');
+            
+        });
+    });
+});
+
+        </script>
 
 
         <footer class="footer">

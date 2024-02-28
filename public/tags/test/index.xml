@@ -6,14 +6,14 @@
     <description>Recent content in Test on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Project 4.0</title>
-      <link>http://localhost:1313/projecten/project40/</link>
-      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projecten/project40/</guid>
-      <description>Project 4.0 was een groepswerk met zes studenten in totaal. Hierbij moesten wij voor VITO een applicatie maken waarbij het mogelijk was om Knolcyperus te detecteren aan de hand van dronebeelden en deze dan visueel weer te geven op een heatmap.</description>
+      <title>Unity Cursus</title>
+      <link>http://localhost:1313/projecten/unitycursus-copy/</link>
+      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projecten/unitycursus-copy/</guid>
+      <description>Mijn Unity cursus is ontstaan door het vak professional skills. Voor dit vak moesten we namelijk in groepjes een trainingssessie geven. Wij hadden hierbij gekozen om naar onze oude school (Sint-Jan Berchmanscollege) te gaan en te vragen of wij een lesje Unity mochten geven. Onze oud-leerkracht van programmeren stond hier helemaal voor open. Aangezien ik de enige van onze groep was die in het verleden al echt met Unity gewerkt had, had ik het op mijzelf genomen dat ik een cursus ging maken.</description>
     </item>
   </channel>
 </rss>
