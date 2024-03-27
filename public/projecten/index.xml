@@ -13,7 +13,7 @@
       <link>http://localhost:1313/projecten/hugoportfolio/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projecten/hugoportfolio/</guid>
-      <description>Portfolio tekst</description>
+      <description>Dit portfolio waar u nu opzit is gemaakt met Hugo. Hugo is een framework dat ik geleerd heb om snel websites mee te maken waarbij ik pagina&amp;rsquo;s kan aanmaken doormiddel van markdown files om te zetten naar HTML. Alle projecten zijn dus markdown files die omgezet worden.&#xA;Dit portfolio zal gebruikt worden tijdens mijn bachelorproef om aan te tonen dat ik klaar ben voor te werken in de IT wereld en als mooi collectieplaatje van al mijn projecten.</description>
     </item>
     <item>
       <title>Project 4.0</title>
@@ -35,13 +35,6 @@
       <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projecten/projectphp/</guid>
       <description>Dit project was een opdracht voor het vak project PHP. Het project was een groepswerk in groepen van zes (dezelfde groep als het project van Requirements Analysis).&#xA;De consultancy app is een project dat we moesten maken voor het vak project PHP. In dit project gebruikten we php samen met laravel om een volledig werkende webapplicatie te maken voor een consultancy bedrijf. Voor het project zaten we elke vrijdag een hele dag op de campus en de rest is van thuis uit gemaakt.</description>
-    </item>
-    <item>
-      <title>Unity Cursus</title>
-      <link>http://localhost:1313/projecten/unitycursus-copy/</link>
-      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projecten/unitycursus-copy/</guid>
-      <description>Mijn Unity cursus is ontstaan door het vak professional skills. Voor dit vak moesten we namelijk in groepjes een trainingssessie geven. Wij hadden hierbij gekozen om naar onze oude school (Sint-Jan Berchmanscollege) te gaan en te vragen of wij een lesje Unity mochten geven. Onze oud-leerkracht van programmeren stond hier helemaal voor open. Aangezien ik de enige van onze groep was die in het verleden al echt met Unity gewerkt had, had ik het op mijzelf genomen dat ik een cursus ging maken.</description>
     </item>
     <item>
       <title>Unity Cursus</title>

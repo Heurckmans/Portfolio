@@ -15,6 +15,7 @@
     font-weight: 700;
     color: $color-black;
     margin-bottom: 1rem;
+    margin-top: 2rem;
 }
 
 .projecten-items{
@@ -74,6 +75,13 @@
     &-date{
         font-family: $font-secondary;
         @include font-size($p-font-sizes);
+        font-weight: 300;
+        color: #9c9c9c;
+    }
+
+    &-tags{
+        font-family: $font-secondary;
+        @include font-size($p-small-font-sizes);
         font-weight: 300;
         color: #9c9c9c;
     }

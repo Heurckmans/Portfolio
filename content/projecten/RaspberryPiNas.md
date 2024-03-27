@@ -12,7 +12,5 @@ Voor dit project moet je OpenMediaVault op je Raspberry Pi zetten en een redelij
 
 Wat ik heb geleerd van dit project is dat een Raspberry Pi heel simpel, heel nuttig kan zijn.
 
-[Bekijk cursus](https://unity4sjb.sinners.be/)
-
 ![Alt text](/images/raspberry-pi-nas-1.png)
 ![Alt text](/images/raspberry-pi-nas-2.png)

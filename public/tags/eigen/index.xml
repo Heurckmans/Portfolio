@@ -13,7 +13,7 @@
       <link>http://localhost:1313/projecten/hugoportfolio/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projecten/hugoportfolio/</guid>
-      <description>Portfolio tekst</description>
+      <description>Dit portfolio waar u nu opzit is gemaakt met Hugo. Hugo is een framework dat ik geleerd heb om snel websites mee te maken waarbij ik pagina&amp;rsquo;s kan aanmaken doormiddel van markdown files om te zetten naar HTML. Alle projecten zijn dus markdown files die omgezet worden.&#xA;Dit portfolio zal gebruikt worden tijdens mijn bachelorproef om aan te tonen dat ik klaar ben voor te werken in de IT wereld en als mooi collectieplaatje van al mijn projecten.</description>
     </item>
     <item>
       <title>Dodge Game</title>
@@ -21,13 +21,6 @@
       <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projecten/dodgegame/</guid>
       <description>Na een lange tijd niet echt meer de tijd vrijgemaakt te hebben om me bezig te houden met game development begon het weer te kriebelen om een klein projectje te maken. Dit vooral om de basis nog eens op te frissen zodat ik het niet helemaal verleerde. Hierdoor had ik gekozen om een simpele &amp;ldquo;Dodge game&amp;rdquo; te maken. Door op A en D te drukken beweeg je je character (het rode blokje) en de spawn locaties van de obstakels worden random gekozen.</description>
-    </item>
-    <item>
-      <title>Unity Cursus</title>
-      <link>http://localhost:1313/projecten/unitycursus-copy/</link>
-      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projecten/unitycursus-copy/</guid>
-      <description>Mijn Unity cursus is ontstaan door het vak professional skills. Voor dit vak moesten we namelijk in groepjes een trainingssessie geven. Wij hadden hierbij gekozen om naar onze oude school (Sint-Jan Berchmanscollege) te gaan en te vragen of wij een lesje Unity mochten geven. Onze oud-leerkracht van programmeren stond hier helemaal voor open. Aangezien ik de enige van onze groep was die in het verleden al echt met Unity gewerkt had, had ik het op mijzelf genomen dat ik een cursus ging maken.</description>
     </item>
     <item>
       <title>Unity Cursus</title>
