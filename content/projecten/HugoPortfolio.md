@@ -4,6 +4,7 @@ type: projecten
 date: 2024-02-28
 tags: 
     - Eigen
+    - School
 ---
 
 Dit portfolio waar u nu opzit is gemaakt met Hugo. Hugo is een framework dat ik geleerd heb om snel websites mee te maken waarbij ik pagina's kan aanmaken doormiddel van markdown files om te zetten naar HTML. Alle projecten zijn dus markdown files die omgezet worden.

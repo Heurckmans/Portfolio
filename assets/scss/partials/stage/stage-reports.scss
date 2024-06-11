@@ -9,13 +9,55 @@
     margin: auto;
 }
 
+.stage-reports-title-container{
+    margin-bottom: 3rem
+}
+
 .stage-reports-title{
-    @include font-size($title-font-sizes);
+    @include font-size($title2-font-sizes);
     font-family: $font-primary;
     font-weight: 700;
     color: $color-black;
-    margin-bottom: 5rem;
     margin-top: 2rem;
+}
+.stage-datum{
+    font-family: $font-secondary;
+    color: #9c9c9c;
+}
+
+.stage-reports-text{
+    h2{
+        font-family: $font-primary;
+        @include font-size($title2-font-sizes);
+        margin-top: 2rem;
+    }
+    h3{
+        font-family: $font-primary;
+        @include font-size($title3-font-sizes);
+    }
+    p{
+        font-family: $font-secondary;
+        margin-bottom: 1rem;
+        @include font-size($p-font-sizes);
+        color: black;
+    }
+}
+
+.stage-reports-bedrijf{
+    margin-bottom: 2rem;
+}
+
+.stage-reports-documenten{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    a{
+        background-color: $color-primary;
+        padding: 1rem;
+        color: $color-white;
+        font-family: $font-secondary;
+        text-align: center;
+    }
 }
 
 .stage-reports-items{
@@ -58,11 +100,31 @@
         transition: 0s;
         gap: 2rem ;
     }
+
+    .stage-reports-bedrijf{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        margin-bottom: 0rem;
+        p{
+            width: 50%;
+        }
+        img{
+            width: 50%;            
+            object-fit: contain;
+        }
+    }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
     .stage-reports-container{
         max-width: $max-screen-width-m; 
+    }
+    .stage-reports-documenten{
+        display: flex;
+        flex-direction: row;
+        a{
+        }
     }
 }
 @media only screen and (min-width: 1200px) {

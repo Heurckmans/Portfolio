@@ -10,7 +10,7 @@
 }
 
 .projecten-title{
-    @include font-size($title-font-sizes);
+    @include font-size($title2-font-sizes);
     font-family: $font-primary;
     font-weight: 700;
     color: $color-black;
@@ -51,7 +51,7 @@
 }
 
 .filter-button-selected{
-    background-color: $color-black;
+    background-color: $color-primary;
     color: $color-white;
 }
 

@@ -472,28 +472,114 @@ a:hover .project-list-item-arrow {
   margin: auto;
 }
 
+.stage-reports-title-container {
+  margin-bottom: 3rem;
+}
+
 .stage-reports-title {
-  font-size: 40px;
+  font-size: 24px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #000;
-  margin-bottom: 5rem;
   margin-top: 2rem;
 }
 @media screen and (min-width: 480px) {
   .stage-reports-title {
-    font-size: 48px;
+    font-size: 24px;
   }
 }
 @media screen and (min-width: 700px) {
   .stage-reports-title {
-    font-size: 56px;
+    font-size: 32px;
   }
 }
 @media screen and (min-width: 1024px) {
   .stage-reports-title {
-    font-size: 64px;
+    font-size: 40px;
   }
+}
+
+.stage-datum {
+  font-family: "Inter", sans-serif;
+  color: #9c9c9c;
+}
+
+.stage-reports-text h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  margin-top: 2rem;
+}
+@media screen and (min-width: 480px) {
+  .stage-reports-text h2 {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .stage-reports-text h2 {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .stage-reports-text h2 {
+    font-size: 40px;
+  }
+}
+.stage-reports-text h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+@media screen and (min-width: 480px) {
+  .stage-reports-text h3 {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .stage-reports-text h3 {
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .stage-reports-text h3 {
+    font-size: 30px;
+  }
+}
+.stage-reports-text p {
+  font-family: "Inter", sans-serif;
+  margin-bottom: 1rem;
+  font-size: 16px;
+  color: black;
+}
+@media screen and (min-width: 480px) {
+  .stage-reports-text p {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .stage-reports-text p {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .stage-reports-text p {
+    font-size: 24px;
+  }
+}
+
+.stage-reports-bedrijf {
+  margin-bottom: 2rem;
+}
+
+.stage-reports-documenten {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.stage-reports-documenten a {
+  background-color: #FF7E22;
+  padding: 1rem;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  text-align: center;
 }
 
 .stage-reports-items {
@@ -564,10 +650,27 @@ a:hover .project-list-item-arrow {
     transition: 0s;
     gap: 2rem;
   }
+  .stage-reports-bedrijf {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-bottom: 0rem;
+  }
+  .stage-reports-bedrijf p {
+    width: 50%;
+  }
+  .stage-reports-bedrijf img {
+    width: 50%;
+    object-fit: contain;
+  }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   .stage-reports-container {
     max-width: 1000px;
+  }
+  .stage-reports-documenten {
+    display: flex;
+    flex-direction: row;
   }
 }
 .project {
@@ -644,7 +747,7 @@ a:hover .project-list-item-arrow {
 }
 
 .projecten-title {
-  font-size: 40px;
+  font-size: 24px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #000;
@@ -653,17 +756,17 @@ a:hover .project-list-item-arrow {
 }
 @media screen and (min-width: 480px) {
   .projecten-title {
-    font-size: 48px;
+    font-size: 24px;
   }
 }
 @media screen and (min-width: 700px) {
   .projecten-title {
-    font-size: 56px;
+    font-size: 32px;
   }
 }
 @media screen and (min-width: 1024px) {
   .projecten-title {
-    font-size: 64px;
+    font-size: 40px;
   }
 }
 
@@ -745,7 +848,7 @@ a:hover .project-list-item-arrow {
 }
 
 .filter-button-selected {
-  background-color: #000;
+  background-color: #FF7E22;
   color: #fff;
 }
 
@@ -838,6 +941,242 @@ a:hover .project-list-item-arrow {
   }
   .project-card-image {
     max-height: 250px;
+  }
+}
+.overmij {
+  padding: 7rem 0;
+  background-color: #f1f1f1;
+}
+
+.overmij-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.overmij-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+}
+@media screen and (min-width: 480px) {
+  .overmij-title {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .overmij-title {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .overmij-title {
+    font-size: 40px;
+  }
+}
+
+.overmij-subtitle {
+  margin-top: 3rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+}
+@media screen and (min-width: 480px) {
+  .overmij-subtitle {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .overmij-subtitle {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .overmij-subtitle {
+    font-size: 40px;
+  }
+}
+
+.cv-text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: black;
+  padding-bottom: 1rem;
+}
+@media screen and (min-width: 480px) {
+  .cv-text {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .cv-text {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cv-text {
+    font-size: 24px;
+  }
+}
+
+.cv-list {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+@media screen and (min-width: 480px) {
+  .cv-list {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .cv-list {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cv-list {
+    font-size: 24px;
+  }
+}
+
+.cv-list-item {
+  list-style-type: square;
+  margin-bottom: 0.5rem;
+}
+
+.cv-list-item::marker {
+  color: #FF7E22;
+}
+
+.cv-link {
+  display: inline-block;
+  padding: 1rem;
+  background-color: #FF7E22;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+@media screen and (min-width: 480px) {
+  .cv-link {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .cv-link {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cv-link {
+    font-size: 24px;
+  }
+}
+
+.cv-opleiding-naam {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.cv-opleiding-locatie {
+  font-family: "Inter", sans-serif;
+}
+
+.cv-opleiding-datum {
+  font-family: "Inter", sans-serif;
+}
+
+.cv-werkervaring-naam {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.cv-werkervaring-datum {
+  font-family: "Inter", sans-serif;
+}
+
+.cv-werkervaring-beschrijving {
+  font-family: "Inter", sans-serif;
+}
+
+.cv-skills {
+  padding-top: 1rem;
+}
+
+#skills h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cv-skill {
+  margin-bottom: 15px;
+}
+
+.cv-skill h3 {
+  margin-bottom: 5px;
+  font-size: 1.2em;
+}
+
+.cv-skill-title {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+@media screen and (min-width: 480px) {
+  .cv-skill-title {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .cv-skill-title {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cv-skill-title {
+    font-size: 24px;
+  }
+}
+
+.cv-progress-bar {
+  background-color: #ddd;
+  overflow: hidden;
+}
+
+.progress {
+  background-color: #FF7E22;
+  height: 10px;
+  transition: width 0.3s;
+}
+
+.cv-image {
+  width: 100%;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.cv-overmij {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.cv-overmij img {
+  max-height: 500px;
+}
+
+@media screen and (min-width: 768px) {
+  .overmij-container {
+    max-width: 1000px;
+  }
+  .cv-overmij {
+    display: flex;
+  }
+  .cv-overmij ul {
+    margin: auto;
+  }
+  .cv-overmij img {
+    max-height: 500px;
   }
 }
 /* Common */
@@ -1111,7 +1450,7 @@ a:hover .project-list-item-arrow {
 }
 .content a {
   padding: 1rem;
-  background-color: #000;
+  background-color: #FF7E22;
   color: #fff;
 }
 

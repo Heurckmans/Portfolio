@@ -1,0 +1,157 @@
+.overmij{
+    padding: 7rem 0;
+    background-color: #f1f1f1;
+}
+
+.overmij-container{
+    max-width: $max-screen-width-s;
+    margin: auto;
+    padding: 1rem;
+}
+
+.overmij-title{
+    font-family: $font-primary;
+    @include font-size($title2-font-sizes);
+    font-weight: 700;
+    color: black;
+}
+
+.overmij-subtitle{
+    margin-top: 3rem;
+    font-family: $font-primary;
+    @include font-size($title2-font-sizes);
+    font-weight: 700;
+    color: black;
+}
+
+.cv-text{
+    font-family: $font-secondary;
+    @include font-size($p-font-sizes);
+    color: black;
+    padding-bottom: 1rem;
+}
+
+
+.cv-list{
+    font-family: $font-primary;
+    @include font-size($p-font-sizes);
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+.cv-list-item{
+    list-style-type: square;
+    margin-bottom: 0.5rem;
+}
+
+.cv-list-item::marker{
+    color: #FF7E22;
+}
+
+.cv-link{
+    display: inline-block;
+    padding: 1rem;
+    background-color: $color-primary;
+    color: $color-white;
+    font-family: $font-secondary;
+    @include font-size($p-font-sizes);
+}
+
+.cv-opleiding-naam{
+    font-family: $font-primary;
+    font-weight: 700;
+}
+
+.cv-opleiding-locatie{
+    font-family: $font-secondary;
+
+}
+
+.cv-opleiding-datum{
+    font-family: $font-secondary;
+}
+
+.cv-werkervaring-naam{
+    font-family: $font-primary;
+    font-weight: 700;
+}
+.cv-werkervaring-datum{
+    font-family: $font-secondary;
+}
+.cv-werkervaring-beschrijving{
+    font-family: $font-secondary;
+}
+
+
+.cv-skills {
+    padding-top: 1rem;
+}
+
+#skills h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cv-skill {
+    margin-bottom: 15px;
+}
+
+.cv-skill h3 {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+
+.cv-skill-title{
+    font-family: $font-secondary;
+    @include font-size($p-font-sizes);
+}
+
+.cv-progress-bar {
+    background-color: #ddd;
+    overflow: hidden;
+}
+
+.progress {
+    background-color: $color-primary;
+    height: 10px;
+    transition: width 0.3s;
+}
+
+.cv-image{
+    width: 100%;
+    object-fit: contain ;
+    overflow: hidden;
+}
+
+.cv-overmij{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    img{
+        max-height: 500px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .overmij-container{
+        max-width: $max-screen-width-m;
+    }
+    .cv-overmij{
+        display: flex;
+        ul{
+            margin: auto;
+        }
+        img{
+            max-height: 500px;
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+@media only screen and (min-width: 1200px) {
+
+}
+@media only screen and (min-width: 2000px) {
+
+}

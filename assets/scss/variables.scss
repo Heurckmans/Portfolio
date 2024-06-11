@@ -9,7 +9,7 @@ $max-screen-width-xl: 1920px;
 $color-black: #000;
 $color-white: #fff;
 
-$color-primary: #e82;
+$color-primary: #FF7E22;
 $color-secondary: #f3d;
 
 $font-primary:'Roboto', sans-serif;
@@ -61,6 +61,12 @@ $title2-font-sizes: (
   small : 24px,
   medium: 32px,
   large : 40px
+);
+$title3-font-sizes: (
+  null  : 18px,
+  small : 22px,
+  medium: 26px,
+  large : 30px
 );
 
 $pbig-font-sizes: (
