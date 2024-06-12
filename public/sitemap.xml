@@ -20,6 +20,9 @@
     <loc>http://localhost:1313/projecten/project40/</loc>
     <lastmod>2024-02-21T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/overmij/</loc>
+    <lastmod>2023-09-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projecten/</loc>
     <lastmod>2023-09-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -40,8 +43,6 @@
   </url><url>
     <loc>http://localhost:1313/projecten/topdownshooter/</loc>
     <lastmod>2020-08-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/overmij/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
