@@ -686,47 +686,47 @@ a:hover .project-list-item-arrow {
 
 .project-title {
   font-family: "Roboto", sans-serif;
-  font-size: 40px;
+  font-size: 24px;
   font-weight: 700;
   color: black;
   margin-bottom: 1rem;
 }
 @media screen and (min-width: 480px) {
   .project-title {
-    font-size: 48px;
+    font-size: 24px;
   }
 }
 @media screen and (min-width: 700px) {
   .project-title {
-    font-size: 56px;
+    font-size: 32px;
   }
 }
 @media screen and (min-width: 1024px) {
   .project-title {
-    font-size: 64px;
+    font-size: 40px;
   }
 }
 
 .project-date {
   font-family: "Inter", sans-serif;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 18px;
   color: #9c9c9c;
   margin-bottom: 3rem;
 }
 @media screen and (min-width: 480px) {
   .project-date {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 @media screen and (min-width: 700px) {
   .project-date {
-    font-size: 32px;
+    font-size: 26px;
   }
 }
 @media screen and (min-width: 1024px) {
   .project-date {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
